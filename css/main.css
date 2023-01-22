@@ -1,0 +1,72 @@
+html {
+    font-size: 14px;
+  }
+  
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    margin-bottom: 60px;
+    font-family: "Roboto Slab", serif;
+    background-color: whitesmoke;
+  }
+  
+  .underline-primary:hover {
+      text-decoration: underline;
+      text-decoration-color: blue;
+      text-decoration-thickness: 2px;
+  }
+  
+  .underline-secondary:hover {
+      text-decoration: underline;
+      text-decoration-color: #6c757d;
+      text-decoration-thickness: 2px;
+  }
+  
+  .underline-success:hover {
+      text-decoration: underline;
+      text-decoration-color: #198754;
+      text-decoration-thickness: 2px;
+  }
+  
+  .underline-danger:hover {
+      text-decoration: underline;
+      text-decoration-color: red;
+      text-decoration-thickness: 2px;
+  }
+  
+  .underline-warning:hover {
+      text-decoration: underline;
+      text-decoration-color: orange;
+      text-decoration-thickness: 2px;
+  }
+  
+  .underline-info:hover {
+      text-decoration: underline;
+      text-decoration-color: #0dcaf0;
+      text-decoration-thickness: 2px;
+  }
+  
+  .div-spacing {
+      margin:auto;
+      margin-top: auto;
+      padding: 10px;
+  }
+  
+  .shadow {
+      box-shadow: -5px 5px 5px 0 rgb(0 0 0 / 40%);
+  }
+  
+  .box-container {
+      background-color: #fff;
+      border: 2px solid black;
+      border-radius: 15px;
+  }
