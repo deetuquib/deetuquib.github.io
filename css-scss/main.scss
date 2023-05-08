@@ -1,0 +1,41 @@
+//@import 'base';
+//@import 'typography';
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+// body
+body {
+    margin-bottom: 60px;
+    font-family: "Roboto Slab", serif;
+    background-color: whitesmoke;
+  }
+
+
+// menu items
+.menu-item {
+    .active-menu-item {
+
+    }
+    .inactive-menu-item {
+
+    }
+}
+
+// card
+.card {
+    // shadow
+    box-shadow: -5px 5px 5px 0 rgb(0 0 0 / 40%);
+
+    // box container
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 15px;
+
+    // div spacing
+    margin:auto;
+    margin-top: auto;
+    padding: 10px;
+}

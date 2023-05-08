@@ -1,0 +1,21 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  font-family: "Roboto Slab", serif;
+  background-color: whitesmoke;
+}
+
+.card {
+  -webkit-box-shadow: -5px 5px 5px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: -5px 5px 5px 0 rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: auto;
+  padding: 10px;
+}
